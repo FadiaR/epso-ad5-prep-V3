@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="theme-color" content="#0c2d6b"/><link rel="manifest" href="./manifest.json"/>
+<link rel="icon" href="./icon-192.png"/><link rel="apple-touch-icon" href="./icon-180.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-title" content="EPSO Prep"/>
+<title>EPSO AD5 Prep</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#0b1220;--muted:#667085;--brand:#0c2d6b;--brand2:#2557d6;--border:#e7e9f0;--shadow:0 10px 30px rgba(11,18,32,.08);--r:18px}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);background:linear-gradient(180deg,#eef3ff 0%,var(--bg) 25%,var(--bg) 100%)}
+header{position:sticky;top:0;z-index:10;backdrop-filter:saturate(180%) blur(10px);background:rgba(246,247,251,.75);border-bottom:1px solid var(--border)}
+.wrap{max-width:980px;margin:0 auto;padding:14px 16px}.topbar{display:flex;gap:10px;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:10px;align-items:center}.logo{width:34px;height:34px;border-radius:10px;background:var(--brand);display:grid;place-items:center;color:#fff;font-weight:800;box-shadow:0 6px 18px rgba(12,45,107,.25)}
+.pill{font-size:12px;border:1px solid var(--border);background:var(--card);padding:8px 10px;border-radius:999px;display:flex;gap:8px;align-items:center}
+main{padding:18px 16px 48px}.cards{max-width:980px;margin:0 auto;display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.card{grid-column:span 12;background:var(--card);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);padding:16px}
+@media (min-width:820px){.half{grid-column:span 6}.third{grid-column:span 4}}
+h1{font-size:22px;margin:0 0 6px}h2{font-size:16px;margin:0 0 10px}p{margin:0 0 10px;color:var(--muted);line-height:1.45}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.btn{border:1px solid var(--border);background:#fff;padding:10px 12px;border-radius:12px;cursor:pointer;font-weight:650}
+.btn.primary{background:linear-gradient(180deg,var(--brand2),var(--brand));color:#fff;border-color:transparent}
+.btn.small{padding:8px 10px;border-radius:10px;font-size:13px}
+.screen{display:none}.screen.active{display:block}.hr{height:1px;background:var(--border);margin:12px 0}
+.q{font-weight:750;white-space:pre-wrap;margin-bottom:12px}.opt{display:block;width:100%;text-align:left;padding:12px;border-radius:14px;border:1px solid var(--border);background:#fff;cursor:pointer;margin-bottom:10px;font-weight:650}
+.opt.correct{border-color:#b7e4c7;background:#f0fff5}.opt.wrong{border-color:#f2c2bf;background:#fff5f5}
+.timer{font-variant-numeric:tabular-nums;font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:800}
+textarea{width:100%;min-height:220px;padding:12px;border-radius:14px;border:1px solid var(--border);outline:none;font-size:15px;line-height:1.5;resize:vertical}
+</style></head>
+<body>
+<header><div class="wrap"><div class="topbar">
+<div class="brand"><div class="logo">EU</div><div><div style="font-weight:800">EPSO AD5 Prep</div><div style="font-size:12px;color:var(--muted)">Banks: verbal.json / numerical.json / abstract.json / eu.json / digital.json</div></div></div>
+<div class="pill"><span id="offlineDot">●</span><span id="offlineLabel">Online</span></div>
+</div></div></header>
+
+<main>
+<section id="home" class="screen active">
+  <div class="cards">
+    <div class="card half">
+      <h1>Practice modules</h1>
+      <p>Timed practice + local progress. Add questions by editing the module JSON file.</p>
+      <div class="row">
+        <button class="btn primary" onclick="go('practice')">Start practice</button>
+        <button class="btn" onclick="go('stats')">Progress</button>
+      </div>
+      <div class="hr"></div>
+      <p style="font-size:12px">Not affiliated with EPSO. Verify official notices and formats.</p>
+    </div>
+    <div class="card half">
+      <h2>How to add questions</h2>
+      <p>Each file is a JSON <b>array</b> of objects: <code>{"q":"...","opts":["A","B","C","D"],"a":1,"exp":"..."}</code> (a is 0-based).</p>
+      <div class="hr"></div>
+      <h2>Essay draft</h2>
+      <textarea id="essayText" placeholder="Write here…"></textarea>
+      <div class="row" style="justify-content:space-between;margin-top:10px">
+        <div class="muted">Words: <span id="wordCount">0</span></div>
+        <button class="btn small" onclick="saveEssay()">Save</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="practice" class="screen">
+  <div class="cards">
+    <div class="card third">
+      <h2>Choose a module</h2>
+      <div class="row">
+        <button class="btn" onclick="startModule('VERBAL')">Verbal</button>
+        <button class="btn" onclick="startModule('NUMERICAL')">Numerical</button>
+        <button class="btn" onclick="startModule('ABSTRACT')">Abstract</button>
+        <button class="btn" onclick="startModule('EU')">EU</button>
+        <button class="btn" onclick="startModule('DIGITAL')">Digital</button>
+      </div>
+      <div class="hr"></div>
+      <button class="btn" onclick="go('home')">← Back</button>
+    </div>
+    <div class="card" style="grid-column:span 12">
+      <div class="row" style="justify-content:space-between">
+        <div><div style="font-weight:850" id="moduleTitle">Not started</div><div class="muted" id="moduleMeta">Pick a module.</div></div>
+        <div class="timer" id="timer">00:00</div>
+      </div>
+      <div class="hr"></div>
+      <div id="quizArea"><p class="muted">Ready.</p></div>
+      <div class="row" style="justify-content:space-between;margin-top:10px">
+        <div class="muted" id="qCounter"></div>
+        <div class="row">
+          <button class="btn small" onclick="endSession()">End</button>
+          <button class="btn primary small" onclick="nextQuestion()">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stats" class="screen">
+  <div class="cards">
+    <div class="card">
+      <h2>Progress</h2>
+      <div id="statsArea"></div>
+      <div class="hr"></div>
+      <div class="row">
+        <button class="btn" onclick="go('home')">← Back</button>
+        <button class="btn" onclick="exportData()">Export</button>
+        <button class="btn" onclick="importData()">Import</button>
+      </div>
+      <input type="file" id="importFile" accept="application/json" style="display:none"/>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+function go(id){document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));document.getElementById(id).classList.add("active");if(id==="stats")renderStats();}
+function refreshOnlineBadge(){const d=document.getElementById("offlineDot");const l=document.getElementById("offlineLabel");const on=navigator.onLine;d.style.color=on?"#0a7a3b":"#b42318";l.textContent=on?"Online":"Offline";}
+addEventListener("online",refreshOnlineBadge);addEventListener("offline",refreshOnlineBadge);refreshOnlineBadge();
+
+const FILES={VERBAL:"./verbal.json",NUMERICAL:"./numerical.json",ABSTRACT:"./abstract.json",EU:"./eu.json",DIGITAL:"./digital.json"};
+const JSON_CACHE={};
+async function loadBank(key){if(JSON_CACHE[key])return JSON_CACHE[key];try{const r=await fetch(FILES[key],{cache:"no-store"});const d=await r.json();JSON_CACHE[key]=Array.isArray(d)?d:[];return JSON_CACHE[key];}catch(e){JSON_CACHE[key]=[];return [];}}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+const PRESETS={VERBAL:{name:"Verbal reasoning",count:20,minutes:35},NUMERICAL:{name:"Numerical reasoning",count:10,minutes:20},ABSTRACT:{name:"Abstract reasoning",count:10,minutes:10},EU:{name:"EU knowledge",count:30,minutes:40},DIGITAL:{name:"Digital skills",count:40,minutes:30}};
+async function pickQuestions(key){const src=await loadBank(key);if(!src.length)return [];const base=shuffle([...src]);const out=[];while(out.length<PRESETS[key].count){out.push(base[out.length%base.length]);}return out.map((x,i)=>({...x,id:key+"_"+i}));}
+
+let state={key:null,questions:[],idx:0,correct:0,answered:false,timer:null,secondsLeft:0,startedAt:null};
+function fmt(sec){const m=Math.floor(sec/60),s=sec%60;return String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");}
+function stopTimer(){if(state.timer)clearInterval(state.timer);state.timer=null;}
+function startTimer(min){stopTimer();state.secondsLeft=min*60;timer.textContent=fmt(state.secondsLeft);state.timer=setInterval(()=>{state.secondsLeft--;timer.textContent=fmt(Math.max(state.secondsLeft,0));if(state.secondsLeft<=0){stopTimer();endSession(true);}},1000);}
+function renderQuestion(){
+  if(!state.key){quizArea.innerHTML="<p class='muted'>Pick a module.</p>";qCounter.textContent="";return;}
+  if(state.idx>=state.questions.length){quizArea.innerHTML=`<h2>Session complete</h2><p class='muted'>Score: <b>${state.correct}/${state.questions.length}</b></p><div class='row'><button class='btn primary' onclick='saveSession()'>Save</button><button class='btn' onclick='startModule(state.key)'>Again</button></div>`;qCounter.textContent="";return;}
+  const q=state.questions[state.idx];
+  moduleTitle.textContent=PRESETS[state.key].name;
+  moduleMeta.textContent=`${PRESETS[state.key].count} questions • ${PRESETS[state.key].minutes} minutes`;
+  qCounter.textContent=`Question ${state.idx+1} / ${state.questions.length}`;
+  quizArea.innerHTML=`<div class='q'>${q.q}</div>`+q.opts.map((o,i)=>`<button class='opt' id='opt_${i}' onclick='answer(${i})'>${o}</button>`).join("")+`<div id='explain' class='muted' style='display:none;margin-top:8px'></div>`;
+  state.answered=false;
+}
+async function startModule(key){
+  state.key=key;state.idx=0;state.correct=0;state.startedAt=new Date().toISOString();
+  moduleTitle.textContent=PRESETS[key].name;moduleMeta.textContent="Loading…";quizArea.innerHTML="<p class='muted'>Loading…</p>";qCounter.textContent="";
+  const picked=await pickQuestions(key);
+  if(!picked.length){stopTimer();moduleMeta.textContent=`${PRESETS[key].count} questions • ${PRESETS[key].minutes} minutes`;quizArea.innerHTML=`<p class='muted'><b>No questions found</b> in <code>${FILES[key]}</code>.</p>`;return;}
+  state.questions=picked;startTimer(PRESETS[key].minutes);renderQuestion();
+}
+function answer(i){
+  if(state.answered)return;state.answered=true;
+  const q=state.questions[state.idx],c=q.a;
+  const ex=document.getElementById("explain");ex.style.display="block";ex.innerHTML=q.exp?("<b>Explanation:</b> "+q.exp):"<b>Explanation:</b> —";
+  for(let k=0;k<q.opts.length;k++){const el=document.getElementById("opt_"+k);if(k===c)el.classList.add("correct");}
+  if(i!==c)document.getElementById("opt_"+i).classList.add("wrong"); else state.correct++;
+}
+function nextQuestion(){if(!state.key)return;if(state.idx>=state.questions.length)return;state.idx++;renderQuestion();}
+function endSession(fromTimer=false){if(!state.key)return;stopTimer();quizArea.innerHTML=`<h2>${fromTimer?"Time is up.":"Session ended."}</h2><p class='muted'>Score: <b>${state.correct}/${state.questions.length}</b></p><div class='row'><button class='btn primary' onclick='saveSession()'>Save</button><button class='btn' onclick='startModule(state.key)'>Again</button></div>`;qCounter.textContent="";}
+
+const LS="epso_sessions_v1";
+function getSessions(){try{return JSON.parse(localStorage.getItem(LS)||"[]");}catch(e){return [];}}
+function setSessions(x){localStorage.setItem(LS,JSON.stringify(x));}
+function saveSession(){const s=getSessions();s.push({key:state.key,name:PRESETS[state.key].name,endedAt:new Date().toISOString(),correct:state.correct,total:state.questions.length});setSessions(s);alert("Saved locally.");go("stats");}
+function renderStats(){const s=getSessions();if(!s.length){statsArea.innerHTML="<p class='muted'>No sessions yet.</p>";return;}const by={};for(const x of s){by[x.key]=by[x.key]||{name:x.name,n:0,c:0,t:0};by[x.key].n++;by[x.key].c+=x.correct;by[x.key].t+=x.total;}
+  statsArea.innerHTML="<table style='width:100%;border-collapse:collapse;font-size:14px'><thead><tr><th style='text-align:left;padding:8px;border-bottom:1px solid var(--border);color:var(--muted)'>Module</th><th style='text-align:left;padding:8px;border-bottom:1px solid var(--border);color:var(--muted)'>Sessions</th><th style='text-align:left;padding:8px;border-bottom:1px solid var(--border);color:var(--muted)'>Accuracy</th></tr></thead><tbody>"+
+  Object.values(by).map(v=>{const pct=v.t?Math.round(100*v.c/v.t):0;return `<tr><td style='padding:10px 8px;border-bottom:1px solid var(--border)'><b>${v.name}</b></td><td style='padding:10px 8px;border-bottom:1px solid var(--border)'>${v.n}</td><td style='padding:10px 8px;border-bottom:1px solid var(--border)'>${v.c}/${v.t} (${pct}%)</td></tr>`;}).join("")+
+  "</tbody></table>";
+}
+function exportData(){const payload={sessions:getSessions(),essay:localStorage.getItem("epso_essay_v1")||""};const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="epso-ad5-prep-export.json";document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);}
+function importData(){const inp=document.getElementById("importFile");inp.onchange=async()=>{const f=inp.files[0];if(!f)return;try{const p=JSON.parse(await f.text());if(p.sessions)setSessions(p.sessions);if(typeof p.essay==="string")localStorage.setItem("epso_essay_v1",p.essay);renderStats();alert("Imported.");}catch(e){alert("Invalid JSON.");}inp.value="";};inp.click();}
+
+const essayText=document.getElementById("essayText");const wc=document.getElementById("wordCount");
+function updateWC(){const t=essayText.value.trim();wc.textContent=t?t.split(/\s+/).length:0;}essayText.addEventListener("input",updateWC);
+function saveEssay(){localStorage.setItem("epso_essay_v1",essayText.value);alert("Saved locally.");}
+(function(){const t=localStorage.getItem("epso_essay_v1");if(t){essayText.value=t;updateWC();}})();
+
+if("serviceWorker"in navigator){addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}
+</script></body></html>

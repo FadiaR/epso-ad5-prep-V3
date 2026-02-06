@@ -1,0 +1,1322 @@
+[
+  {
+    "q": "You receive an unexpected email asking you to reset your password via a link. What is the safest action?",
+    "opts": [
+      "Click the link quickly",
+      "Ignore it completely",
+      "Verify via official channel and report",
+      "Forward to colleagues"
+    ],
+    "a": 2,
+    "exp": "Verify unexpected credential requests and report."
+  },
+  {
+    "q": "A colleague asks for your login details to finish urgent work. What should you do?",
+    "opts": [
+      "Share them temporarily",
+      "Refuse and suggest proper access",
+      "Change password afterwards",
+      "Send via chat"
+    ],
+    "a": 1,
+    "exp": "Never share credentials; use proper access."
+  },
+  {
+    "q": "Which password practice is most secure?",
+    "opts": [
+      "Same password everywhere",
+      "Short but memorable",
+      "Long unique passwords",
+      "Writing passwords down"
+    ],
+    "a": 2,
+    "exp": "Use long, unique passwords."
+  },
+  {
+    "q": "What is the main purpose of multi-factor authentication (MFA)?",
+    "opts": [
+      "Increase speed",
+      "Improve account security",
+      "Reduce storage use",
+      "Avoid updates"
+    ],
+    "a": 1,
+    "exp": "Adds a second verification factor."
+  },
+  {
+    "q": "A lost work laptop should be reported because:",
+    "opts": [
+      "It is inconvenient",
+      "It may contain sensitive data",
+      "It affects productivity",
+      "It delays meetings"
+    ],
+    "a": 1,
+    "exp": "Lost devices can expose data."
+  },
+  {
+    "q": "Which behaviour increases phishing risk?",
+    "opts": [
+      "Checking sender domain",
+      "Clicking links under urgency",
+      "Using MFA",
+      "Reporting suspicious emails"
+    ],
+    "a": 1,
+    "exp": "Urgency is a common phishing tactic."
+  },
+  {
+    "q": "If malware is suspected, the first action is to:",
+    "opts": [
+      "Ignore it",
+      "Disconnect and report",
+      "Delete random files",
+      "Install unknown software"
+    ],
+    "a": 1,
+    "exp": "Contain and report immediately."
+  },
+  {
+    "q": "What does encryption at rest protect?",
+    "opts": [
+      "Data during calls",
+      "Stored data",
+      "Passwords only",
+      "Wi‑Fi traffic"
+    ],
+    "a": 1,
+    "exp": "Protects data stored on disk."
+  },
+  {
+    "q": "Why should devices auto-lock when unattended?",
+    "opts": [
+      "Save battery",
+      "Prevent unauthorised access",
+      "Improve speed",
+      "Enable updates"
+    ],
+    "a": 1,
+    "exp": "Reduces risk of physical access."
+  },
+  {
+    "q": "Which action best protects against ransomware?",
+    "opts": [
+      "No backups",
+      "Regular tested backups",
+      "Disabling antivirus",
+      "Sharing passwords"
+    ],
+    "a": 1,
+    "exp": "Backups enable recovery."
+  },
+  {
+    "q": "What is the safest way to handle unknown USB drives?",
+    "opts": [
+      "Use immediately",
+      "Scan at home",
+      "Avoid and follow policy",
+      "Give to colleagues"
+    ],
+    "a": 2,
+    "exp": "Unknown media may carry malware."
+  },
+  {
+    "q": "A secure email habit is to:",
+    "opts": [
+      "CC everyone",
+      "Verify recipients",
+      "Disable spam filters",
+      "Share passwords"
+    ],
+    "a": 1,
+    "exp": "Verify recipients to avoid leaks."
+  },
+  {
+    "q": "Why should updates be installed promptly?",
+    "opts": [
+      "They add features",
+      "They reduce vulnerabilities",
+      "They slow systems",
+      "They change UI"
+    ],
+    "a": 1,
+    "exp": "Patches fix known security flaws."
+  },
+  {
+    "q": "A suspicious calendar invite may:",
+    "opts": [
+      "Improve scheduling",
+      "Contain malicious links",
+      "Increase storage",
+      "Fix errors"
+    ],
+    "a": 1,
+    "exp": "Invites can be social engineering."
+  },
+  {
+    "q": "What indicates a spoofed website?",
+    "opts": [
+      "Professional design",
+      "Odd domain spelling",
+      "Fast loading",
+      "Clear logo"
+    ],
+    "a": 1,
+    "exp": "Check domain carefully."
+  },
+  {
+    "q": "If public Wi‑Fi must be used, you should:",
+    "opts": [
+      "Disable firewall",
+      "Use VPN/HTTPS",
+      "Share hotspot",
+      "Send credentials"
+    ],
+    "a": 1,
+    "exp": "Use encrypted connections."
+  },
+  {
+    "q": "Why should work files not be stored in personal cloud accounts?",
+    "opts": [
+      "Slower access",
+      "Policy and security risks",
+      "Cost issues",
+      "Storage limits"
+    ],
+    "a": 1,
+    "exp": "Use approved services only."
+  },
+  {
+    "q": "What is least‑privilege access?",
+    "opts": [
+      "Admin rights for all",
+      "Minimum necessary access",
+      "Permanent access",
+      "Shared accounts"
+    ],
+    "a": 1,
+    "exp": "Limit access to what’s needed."
+  },
+  {
+    "q": "If an email attachment is unexpected, you should:",
+    "opts": [
+      "Open it",
+      "Reply asking",
+      "Report via official channel",
+      "Forward internally"
+    ],
+    "a": 2,
+    "exp": "Report unexpected attachments."
+  },
+  {
+    "q": "Why should logs not be deleted after an incident?",
+    "opts": [
+      "They waste space",
+      "They support investigation",
+      "They slow systems",
+      "They confuse users"
+    ],
+    "a": 1,
+    "exp": "Logs are needed for investigation."
+  },
+  {
+    "q": "You are asked to disable the firewall to test a tool. Best response?",
+    "opts": [
+      "Disable it temporarily",
+      "Refuse and ask IT for a safe test method",
+      "Ignore the request",
+      "Share the tool externally"
+    ],
+    "a": 1,
+    "exp": "Security controls should be changed only via approved process."
+  },
+  {
+    "q": "A colleague sends a file-sharing link set to 'anyone with link can edit'. Best action?",
+    "opts": [
+      "Use it as-is",
+      "Ask to restrict permissions (view/edit) to intended users",
+      "Forward link widely",
+      "Download and re-upload publicly"
+    ],
+    "a": 1,
+    "exp": "Apply least privilege on sharing."
+  },
+  {
+    "q": "You accidentally emailed a document to the wrong external recipient. First step?",
+    "opts": [
+      "Delete your sent email",
+      "Report immediately and follow incident procedure",
+      "Wait to see if they reply",
+      "Send more information to clarify"
+    ],
+    "a": 1,
+    "exp": "Prompt reporting enables containment."
+  },
+  {
+    "q": "Which is safest for storing sensitive files on a laptop?",
+    "opts": [
+      "Plain folder",
+      "Encrypted storage per policy",
+      "USB stick without encryption",
+      "Email drafts"
+    ],
+    "a": 1,
+    "exp": "Use encryption per policy."
+  },
+  {
+    "q": "A pop-up claims 'Your account will be locked in 5 minutes' and asks to sign in. Best action?",
+    "opts": [
+      "Sign in quickly",
+      "Close it and verify via official portal",
+      "Share with colleagues",
+      "Disable browser security"
+    ],
+    "a": 1,
+    "exp": "Verify via trusted channel."
+  },
+  {
+    "q": "You receive a call requesting a one-time MFA code. What should you do?",
+    "opts": [
+      "Provide the code",
+      "Refuse and report as social engineering",
+      "Ask them to call back later",
+      "Send code by email"
+    ],
+    "a": 1,
+    "exp": "Never share MFA codes."
+  },
+  {
+    "q": "Your browser warns about an invalid certificate. Best action?",
+    "opts": [
+      "Proceed anyway",
+      "Do not proceed; verify URL/certificate or contact IT",
+      "Refresh repeatedly",
+      "Disable warnings"
+    ],
+    "a": 1,
+    "exp": "Certificate warnings indicate risk."
+  },
+  {
+    "q": "For sensitive meetings, the safest practice is:",
+    "opts": [
+      "Record by default",
+      "Share notes only via approved access-controlled storage",
+      "Post summary publicly",
+      "Email attachments to personal accounts"
+    ],
+    "a": 1,
+    "exp": "Use controlled storage and limit sharing."
+  },
+  {
+    "q": "If a device is lost, remote wipe is useful because:",
+    "opts": [
+      "It speeds up Wi‑Fi",
+      "It can remove data from the device",
+      "It increases storage",
+      "It fixes passwords"
+    ],
+    "a": 1,
+    "exp": "Remote wipe helps protect data."
+  },
+  {
+    "q": "Which is a good practice to reduce data leakage?",
+    "opts": [
+      "Use public links",
+      "Avoid unnecessary CC and verify recipients",
+      "Share credentials",
+      "Store everything in personal apps"
+    ],
+    "a": 1,
+    "exp": "Reduce exposure through careful sharing."
+  },
+  {
+    "q": "A coworker asks you to install software from an unofficial website. Best response?",
+    "opts": [
+      "Install it",
+      "Refuse and request approved installation through IT",
+      "Share the link",
+      "Disable antivirus first"
+    ],
+    "a": 1,
+    "exp": "Use approved software sources."
+  },
+  {
+    "q": "Why is using an unpatched device risky?",
+    "opts": [
+      "UI changes",
+      "Known vulnerabilities remain exploitable",
+      "It runs too fast",
+      "It uses more storage"
+    ],
+    "a": 1,
+    "exp": "Unpatched vulnerabilities are exploited."
+  },
+  {
+    "q": "A suspicious email asks you to 'confirm bank details'. Best response?",
+    "opts": [
+      "Reply with details",
+      "Verify through official contact methods",
+      "Forward to team",
+      "Click unsubscribe"
+    ],
+    "a": 1,
+    "exp": "Verify independently; do not share data."
+  },
+  {
+    "q": "What’s the best reason to avoid shared accounts?",
+    "opts": [
+      "They are slower",
+      "They reduce accountability and increase risk",
+      "They improve collaboration",
+      "They save money"
+    ],
+    "a": 1,
+    "exp": "Shared accounts weaken accountability."
+  },
+  {
+    "q": "If you must share a confidential file externally, best approach is:",
+    "opts": [
+      "Public link",
+      "Encrypted channel + correct recipient verification",
+      "Send via personal email",
+      "Post in chat group"
+    ],
+    "a": 1,
+    "exp": "Secure channel + recipient checks."
+  },
+  {
+    "q": "A colleague requests admin rights for convenience. Best response?",
+    "opts": [
+      "Grant it",
+      "Follow least privilege; request justification and approvals",
+      "Ignore them",
+      "Share your admin account"
+    ],
+    "a": 1,
+    "exp": "Admin rights only when justified/approved."
+  },
+  {
+    "q": "Which is the safest behaviour when leaving a desk?",
+    "opts": [
+      "Leave device unlocked",
+      "Lock screen",
+      "Close laptop lid only",
+      "Turn off updates"
+    ],
+    "a": 1,
+    "exp": "Locking prevents unauthorised access."
+  },
+  {
+    "q": "Why are periodic access reviews important?",
+    "opts": [
+      "They slow work",
+      "They remove unnecessary access",
+      "They delete files",
+      "They increase spam"
+    ],
+    "a": 1,
+    "exp": "Remove stale access."
+  },
+  {
+    "q": "A file appears to come from a colleague but the writing style is unusual. Best action?",
+    "opts": [
+      "Open immediately",
+      "Verify via another channel before acting",
+      "Forward to everyone",
+      "Reply with password"
+    ],
+    "a": 1,
+    "exp": "Verify suspected impersonation."
+  },
+  {
+    "q": "If you suspect ransomware activity, you should:",
+    "opts": [
+      "Keep working",
+      "Disconnect from network and report",
+      "Pay ransom immediately",
+      "Delete antivirus"
+    ],
+    "a": 1,
+    "exp": "Contain and escalate quickly."
+  },
+  {
+    "q": "What does 'secure disposal' of data mean?",
+    "opts": [
+      "Keep forever",
+      "Delete according to policy and ensure it cannot be recovered easily",
+      "Share publicly",
+      "Rename files"
+    ],
+    "a": 1,
+    "exp": "Dispose securely per policy."
+  },
+  {
+    "q": "If your phone shows repeated login prompts, you should:",
+    "opts": [
+      "Enter password repeatedly",
+      "Check for phishing and verify the legitimate app",
+      "Disable lockscreen",
+      "Share password"
+    ],
+    "a": 1,
+    "exp": "Repeated prompts can indicate phishing."
+  },
+  {
+    "q": "An attachment ends with .exe. What is safest?",
+    "opts": [
+      "Open it",
+      "Do not open; report",
+      "Forward to colleagues",
+      "Rename to .pdf"
+    ],
+    "a": 1,
+    "exp": "Executable attachments are high risk."
+  },
+  {
+    "q": "Which is best to protect against account takeover?",
+    "opts": [
+      "Same password reuse",
+      "MFA + unique passwords",
+      "Disabling updates",
+      "Public Wi‑Fi"
+    ],
+    "a": 1,
+    "exp": "Combine MFA and unique passwords."
+  },
+  {
+    "q": "When handling personal data, best default is:",
+    "opts": [
+      "Collect all fields",
+      "Collect only necessary fields and protect access",
+      "Share widely",
+      "Store on USB"
+    ],
+    "a": 1,
+    "exp": "Minimise data and control access."
+  },
+  {
+    "q": "Why should you avoid posting work screenshots on social media?",
+    "opts": [
+      "They are blurry",
+      "They may disclose sensitive information",
+      "They use battery",
+      "They reduce Wi‑Fi"
+    ],
+    "a": 1,
+    "exp": "Screenshots can leak data."
+  },
+  {
+    "q": "A software license key arrives by email from an unknown sender. Best response?",
+    "opts": [
+      "Use it",
+      "Treat as suspicious and verify source",
+      "Forward broadly",
+      "Disable security"
+    ],
+    "a": 1,
+    "exp": "Unknown keys can be scams."
+  },
+  {
+    "q": "Which practice reduces risk when using removable media?",
+    "opts": [
+      "No scanning",
+      "Use encrypted, organisation-managed media where permitted",
+      "Share with others",
+      "Use found drives"
+    ],
+    "a": 1,
+    "exp": "Managed encrypted media reduces risk."
+  },
+  {
+    "q": "If a colleague asks you to bypass a security step 'just once', you should:",
+    "opts": [
+      "Comply",
+      "Refuse and follow procedure",
+      "Share your password",
+      "Disable MFA"
+    ],
+    "a": 1,
+    "exp": "Security steps exist for a reason."
+  },
+  {
+    "q": "What is the safest way to store recovery codes for MFA?",
+    "opts": [
+      "Public note",
+      "Secure password manager or protected storage",
+      "Plain text email",
+      "Chat to yourself"
+    ],
+    "a": 1,
+    "exp": "Protect recovery codes like passwords."
+  },
+  {
+    "q": "You receive an SMS with a login code you did not request. Best action?",
+    "opts": [
+      "Ignore forever",
+      "Report/secure account; change password and check sessions",
+      "Send code to friends",
+      "Turn off phone"
+    ],
+    "a": 1,
+    "exp": "Unexpected codes may indicate attack."
+  },
+  {
+    "q": "What is a key reason to avoid installing browser extensions without approval?",
+    "opts": [
+      "They slow typing",
+      "They can access data and introduce risk",
+      "They change colors",
+      "They update too often"
+    ],
+    "a": 1,
+    "exp": "Extensions can access data."
+  },
+  {
+    "q": "If you must share a folder, safest permission is:",
+    "opts": [
+      "Edit for everyone",
+      "View for most; edit only for contributors",
+      "Public access",
+      "Anonymous edit"
+    ],
+    "a": 1,
+    "exp": "Apply least privilege."
+  },
+  {
+    "q": "A colleague asks you to email them a database export. Best response?",
+    "opts": [
+      "Email attachment",
+      "Use approved secure transfer method and verify need-to-know",
+      "Upload publicly",
+      "Send via personal email"
+    ],
+    "a": 1,
+    "exp": "Use secure channels and minimise sharing."
+  },
+  {
+    "q": "Which action best supports confidentiality during video calls?",
+    "opts": [
+      "Share screen by default",
+      "Check participants and avoid sharing sensitive windows",
+      "Record publicly",
+      "Disable waiting room"
+    ],
+    "a": 1,
+    "exp": "Limit exposure in calls."
+  },
+  {
+    "q": "If you suspect someone is tailgating into a secure office area, you should:",
+    "opts": [
+      "Ignore",
+      "Follow security procedure/report",
+      "Invite them in",
+      "Share your badge"
+    ],
+    "a": 1,
+    "exp": "Report per physical security policy."
+  },
+  {
+    "q": "Why is it risky to reuse passwords?",
+    "opts": [
+      "It saves time",
+      "A breach on one site compromises others",
+      "It improves memory",
+      "It reduces phishing"
+    ],
+    "a": 1,
+    "exp": "Reuse amplifies impact."
+  },
+  {
+    "q": "A link shortener hides the destination. Best practice is to:",
+    "opts": [
+      "Click anyway",
+      "Avoid or expand/verify the link destination",
+      "Forward to everyone",
+      "Disable browser protection"
+    ],
+    "a": 1,
+    "exp": "Verify destination URL."
+  },
+  {
+    "q": "What is the safest default when sharing a document internally?",
+    "opts": [
+      "Anyone can edit",
+      "View-only for intended users",
+      "Public link",
+      "Anonymous access"
+    ],
+    "a": 1,
+    "exp": "Start restrictive and grant access as needed."
+  },
+  {
+    "q": "Using CC excessively in emails can:",
+    "opts": [
+      "Improve transparency",
+      "Increase data exposure",
+      "Speed decisions",
+      "Reduce errors"
+    ],
+    "a": 1,
+    "exp": "Over-sharing increases risk."
+  },
+  {
+    "q": "Why use official collaboration tools?",
+    "opts": [
+      "They are trendy",
+      "They meet security requirements",
+      "They are faster",
+      "They replace email"
+    ],
+    "a": 1,
+    "exp": "Approved tools are policy-compliant."
+  },
+  {
+    "q": "What is a benefit of version history?",
+    "opts": [
+      "Deletes history",
+      "Tracks changes",
+      "Hides authors",
+      "Removes backups"
+    ],
+    "a": 1,
+    "exp": "Version history supports traceability and recovery."
+  },
+  {
+    "q": "When collaborating on a shared file, best practice is to:",
+    "opts": [
+      "Edit simultaneously without notice",
+      "Communicate major changes",
+      "Disable history",
+      "Duplicate files"
+    ],
+    "a": 1,
+    "exp": "Communication avoids conflicts."
+  },
+  {
+    "q": "If you need feedback on a draft, best practice is to:",
+    "opts": [
+      "Send multiple versions",
+      "Share one link and control permissions",
+      "Email screenshots",
+      "Post publicly"
+    ],
+    "a": 1,
+    "exp": "Single link avoids version confusion."
+  },
+  {
+    "q": "A colleague cannot access a shared document. Best action is to:",
+    "opts": [
+      "Share your credentials",
+      "Check and adjust permissions for that user",
+      "Make it public",
+      "Send as image"
+    ],
+    "a": 1,
+    "exp": "Fix permissions; don't share credentials."
+  },
+  {
+    "q": "When sending sensitive information, you should:",
+    "opts": [
+      "Use any channel",
+      "Use approved secure channel and verify recipients",
+      "CC all teams",
+      "Send to personal email"
+    ],
+    "a": 1,
+    "exp": "Use secure channels and recipient checks."
+  },
+  {
+    "q": "In a group chat, you should avoid:",
+    "opts": [
+      "Clear questions",
+      "Sharing confidential data",
+      "Using threads",
+      "Summarising decisions"
+    ],
+    "a": 1,
+    "exp": "Avoid sensitive data in uncontrolled channels."
+  },
+  {
+    "q": "A clear subject line helps because it:",
+    "opts": [
+      "Increases file size",
+      "Improves findability and context",
+      "Encrypts email",
+      "Disables spam"
+    ],
+    "a": 1,
+    "exp": "Subjects improve organisation and clarity."
+  },
+  {
+    "q": "If a conversation becomes complex, best practice is to:",
+    "opts": [
+      "Start new random threads",
+      "Summarise decisions and actions in one place",
+      "Avoid documentation",
+      "Delete messages"
+    ],
+    "a": 1,
+    "exp": "Summaries reduce ambiguity."
+  },
+  {
+    "q": "When sharing a document externally, you should:",
+    "opts": [
+      "Use 'anyone with link can edit'",
+      "Use named access or time-limited link when possible",
+      "Share credentials",
+      "Post link publicly"
+    ],
+    "a": 1,
+    "exp": "Restrict external access."
+  },
+  {
+    "q": "For meetings, best practice for notes is:",
+    "opts": [
+      "No notes",
+      "Store notes in approved access-controlled space",
+      "Post publicly",
+      "Email to personal accounts"
+    ],
+    "a": 1,
+    "exp": "Notes can be sensitive."
+  },
+  {
+    "q": "If you receive unclear instructions, you should:",
+    "opts": [
+      "Guess",
+      "Ask for clarification",
+      "Ignore",
+      "Proceed without informing"
+    ],
+    "a": 1,
+    "exp": "Clarify to avoid errors."
+  },
+  {
+    "q": "Why use comments/suggestions mode in documents?",
+    "opts": [
+      "To hide changes",
+      "To review without overwriting the original",
+      "To disable collaboration",
+      "To remove history"
+    ],
+    "a": 1,
+    "exp": "Supports review without direct edits."
+  },
+  {
+    "q": "Using a single shared document is better than attachments because:",
+    "opts": [
+      "It is slower",
+      "It avoids version confusion",
+      "It removes permissions",
+      "It prevents comments"
+    ],
+    "a": 1,
+    "exp": "Single source avoids version sprawl."
+  },
+  {
+    "q": "What is a risk of forwarding emails unnecessarily?",
+    "opts": [
+      "Improves speed",
+      "Spreads confidential info beyond need-to-know",
+      "Reduces inbox size",
+      "Increases encryption"
+    ],
+    "a": 1,
+    "exp": "Forwarding can leak data."
+  },
+  {
+    "q": "If you must share a large file, best practice is to:",
+    "opts": [
+      "Email multiple attachments",
+      "Use approved file transfer/share tool",
+      "Post on social media",
+      "Compress with unknown tools"
+    ],
+    "a": 1,
+    "exp": "Use approved transfer tools."
+  },
+  {
+    "q": "In collaborative tools, using @mentions is best for:",
+    "opts": [
+      "Encrypting content",
+      "Getting the right person's attention",
+      "Reducing storage",
+      "Deleting messages"
+    ],
+    "a": 1,
+    "exp": "Mentions route actions appropriately."
+  },
+  {
+    "q": "A good practice to avoid misunderstandings is to:",
+    "opts": [
+      "Use vague wording",
+      "State deadlines, owners, and next steps clearly",
+      "Avoid summaries",
+      "Use sarcasm"
+    ],
+    "a": 1,
+    "exp": "Clarity reduces errors."
+  },
+  {
+    "q": "When using a shared calendar, you should:",
+    "opts": [
+      "Invite external addresses by default",
+      "Verify invitees and meeting details",
+      "Hide all titles",
+      "Share passwords"
+    ],
+    "a": 1,
+    "exp": "Verify participants and details."
+  },
+  {
+    "q": "If you share a screen in a call, safest habit is to:",
+    "opts": [
+      "Share entire desktop always",
+      "Share a single window/tab when possible",
+      "Disable security",
+      "Record publicly"
+    ],
+    "a": 1,
+    "exp": "Limit what is exposed."
+  },
+  {
+    "q": "Why is it useful to set document permissions to 'comment' rather than 'edit'?",
+    "opts": [
+      "More fun",
+      "Prevents accidental changes",
+      "Increases cost",
+      "Removes history"
+    ],
+    "a": 1,
+    "exp": "Comment mode reduces accidental edits."
+  },
+  {
+    "q": "A colleague asks you to send them confidential data in a chat for speed. Best response:",
+    "opts": [
+      "Send it",
+      "Use approved secure channel or decline",
+      "Post in group",
+      "Email personal account"
+    ],
+    "a": 1,
+    "exp": "Use appropriate secure channels."
+  },
+  {
+    "q": "When collaborating across time zones, best practice is to:",
+    "opts": [
+      "Avoid documentation",
+      "Use written summaries and clear deadlines",
+      "Only use calls",
+      "Delete messages"
+    ],
+    "a": 1,
+    "exp": "Written clarity helps async work."
+  },
+  {
+    "q": "Why should you avoid sharing meeting links publicly?",
+    "opts": [
+      "They expire",
+      "It can allow unauthorised access",
+      "They slow Wi‑Fi",
+      "They increase storage"
+    ],
+    "a": 1,
+    "exp": "Public links can be abused."
+  },
+  {
+    "q": "A useful etiquette in group channels is to:",
+    "opts": [
+      "Start multiple topics in one message",
+      "Use threads or separate messages per topic",
+      "Tag everyone always",
+      "Avoid context"
+    ],
+    "a": 1,
+    "exp": "Threads keep organised."
+  },
+  {
+    "q": "If you need to transfer ownership of a document, you should:",
+    "opts": [
+      "Send a copy",
+      "Change owner in the tool (if allowed) and verify permissions",
+      "Post publicly",
+      "Delete file"
+    ],
+    "a": 1,
+    "exp": "Proper ownership preserves control."
+  },
+  {
+    "q": "When sending attachments, best practice is to:",
+    "opts": [
+      "Send without checking",
+      "Verify recipients and whether attachment is necessary",
+      "Always compress",
+      "Always encrypt with shared password"
+    ],
+    "a": 1,
+    "exp": "Minimise disclosure and verify recipients."
+  },
+  {
+    "q": "Your device cannot connect to Wi‑Fi. What should you check first?",
+    "opts": [
+      "Replace device",
+      "Check Wi‑Fi settings/airplane mode",
+      "Report to media",
+      "Disable security"
+    ],
+    "a": 1,
+    "exp": "Start with basic connectivity checks."
+  },
+  {
+    "q": "An application freezes repeatedly. Best first step?",
+    "opts": [
+      "Delete files",
+      "Restart the application",
+      "Buy new device",
+      "Ignore"
+    ],
+    "a": 1,
+    "exp": "Restart resolves temporary issues."
+  },
+  {
+    "q": "A shared file cannot be edited. Likely cause?",
+    "opts": [
+      "Corruption",
+      "Permission settings",
+      "Internet speed",
+      "File size"
+    ],
+    "a": 1,
+    "exp": "Permissions often restrict editing."
+  },
+  {
+    "q": "If printing fails, what is a logical first check?",
+    "opts": [
+      "Replace printer",
+      "Check connection/status/queue",
+      "Reinstall OS",
+      "Contact supplier"
+    ],
+    "a": 1,
+    "exp": "Check basics before escalation."
+  },
+  {
+    "q": "Your email is not syncing. What should you verify?",
+    "opts": [
+      "Password and connection",
+      "Buy new phone",
+      "Delete contacts",
+      "Ignore"
+    ],
+    "a": 0,
+    "exp": "Authentication/connectivity are common causes."
+  },
+  {
+    "q": "A file opens incorrectly. What may help?",
+    "opts": [
+      "Rename randomly",
+      "Check file format and associated app",
+      "Delete content",
+      "Share publicly"
+    ],
+    "a": 1,
+    "exp": "Wrong app/format causes issues."
+  },
+  {
+    "q": "A tool behaves differently after an update. Best action?",
+    "opts": [
+      "Disable updates",
+      "Check release notes/help",
+      "Ignore change",
+      "Uninstall OS"
+    ],
+    "a": 1,
+    "exp": "Updates may change behaviour."
+  },
+  {
+    "q": "You cannot access a shared drive. First step?",
+    "opts": [
+      "Request access via proper process",
+      "Create new drive",
+      "Disable security",
+      "Share credentials"
+    ],
+    "a": 0,
+    "exp": "Access must be granted correctly."
+  },
+  {
+    "q": "System runs slowly. What is reasonable to check?",
+    "opts": [
+      "Open more apps",
+      "Available storage and running processes",
+      "Change wallpaper",
+      "Ignore"
+    ],
+    "a": 1,
+    "exp": "Storage/process load affects performance."
+  },
+  {
+    "q": "A website does not load but others do. Likely cause?",
+    "opts": [
+      "Device failure",
+      "Site-specific issue",
+      "No internet",
+      "Virus"
+    ],
+    "a": 1,
+    "exp": "If others work, it’s likely site-specific."
+  },
+  {
+    "q": "Video call audio doesn’t work. First check?",
+    "opts": [
+      "Buy headset",
+      "Check mute and correct input device",
+      "Delete browser",
+      "Ignore"
+    ],
+    "a": 1,
+    "exp": "Audio device selection/mute are common."
+  },
+  {
+    "q": "You can’t attach a file because it’s too large. Best option?",
+    "opts": [
+      "Give up",
+      "Use approved file sharing link instead",
+      "Send publicly",
+      "Split randomly"
+    ],
+    "a": 1,
+    "exp": "Use approved sharing methods."
+  },
+  {
+    "q": "A login fails repeatedly. Best next step?",
+    "opts": [
+      "Keep trying",
+      "Check caps lock, reset via official process",
+      "Share password",
+      "Disable MFA"
+    ],
+    "a": 1,
+    "exp": "Use official reset process."
+  },
+  {
+    "q": "A document shows outdated content. Most likely fix?",
+    "opts": [
+      "New laptop",
+      "Refresh/sync and check correct version",
+      "Delete account",
+      "Disable updates"
+    ],
+    "a": 1,
+    "exp": "Sync/version issues are common."
+  },
+  {
+    "q": "You suspect you’re in the wrong channel. Best action?",
+    "opts": [
+      "Post anyway",
+      "Verify channel and audience before posting",
+      "Tag everyone",
+      "Share confidential data"
+    ],
+    "a": 1,
+    "exp": "Audience check prevents disclosure."
+  },
+  {
+    "q": "Your browser is slow on one site. First step?",
+    "opts": [
+      "Reinstall OS",
+      "Clear cache for that site / try private window",
+      "Disable security",
+      "Change monitor"
+    ],
+    "a": 1,
+    "exp": "Cache issues can affect a site."
+  },
+  {
+    "q": "A QR code asks you to login. Best practice?",
+    "opts": [
+      "Scan and login",
+      "Verify source and URL before entering credentials",
+      "Forward to friends",
+      "Disable warnings"
+    ],
+    "a": 1,
+    "exp": "Verify destination before credentials."
+  },
+  {
+    "q": "Convert a document to PDF. Best approach?",
+    "opts": [
+      "Screenshot pages",
+      "Use built-in export/print-to-PDF tool",
+      "Upload to unknown converter",
+      "Change extension only"
+    ],
+    "a": 1,
+    "exp": "Use trusted tools; extension change isn’t conversion."
+  },
+  {
+    "q": "A spreadsheet formula gives unexpected result. First action?",
+    "opts": [
+      "Delete sheet",
+      "Check cell references and formatting",
+      "Send to everyone",
+      "Ignore"
+    ],
+    "a": 1,
+    "exp": "Reference/format issues are common."
+  },
+  {
+    "q": "You can’t find a saved file. Best first step?",
+    "opts": [
+      "Assume deleted",
+      "Use search and check recent files/location",
+      "Format disk",
+      "Create new file"
+    ],
+    "a": 1,
+    "exp": "Search/recent/location checks first."
+  },
+  {
+    "q": "A web form won’t submit. Troubleshooting step?",
+    "opts": [
+      "Turn off security",
+      "Try another browser or clear cache",
+      "Post data publicly",
+      "Disable updates"
+    ],
+    "a": 1,
+    "exp": "Browser/cache issues are common."
+  },
+  {
+    "q": "Phone storage is full. Best approach?",
+    "opts": [
+      "Ignore",
+      "Delete unnecessary files/apps and move data to approved storage",
+      "Disable lock screen",
+      "Share passwords"
+    ],
+    "a": 1,
+    "exp": "Free space safely; use approved storage."
+  },
+  {
+    "q": "You cannot install an update due to permissions. Best action?",
+    "opts": [
+      "Bypass security",
+      "Contact IT/admin per policy",
+      "Download random installer",
+      "Share credentials"
+    ],
+    "a": 1,
+    "exp": "Permissions issues need approved support."
+  },
+  {
+    "q": "Colleague didn’t receive your email. First check?",
+    "opts": [
+      "Resend to all",
+      "Check sent folder, address, spam/bounce",
+      "Delete account",
+      "Ignore"
+    ],
+    "a": 1,
+    "exp": "Verify addressing and delivery status."
+  },
+  {
+    "q": "A link opens but looks wrong. Best action?",
+    "opts": [
+      "Continue",
+      "Stop and verify URL/domain before entering data",
+      "Share with team",
+      "Disable warnings"
+    ],
+    "a": 1,
+    "exp": "Verify destination."
+  },
+  {
+    "q": "Collaborate on a table. Best tool choice?",
+    "opts": [
+      "Screenshots",
+      "Shared spreadsheet/document with permissions",
+      "Public blog",
+      "SMS"
+    ],
+    "a": 1,
+    "exp": "Use collaborative tools with access control."
+  },
+  {
+    "q": "A file is 'read-only'. Likely cause?",
+    "opts": [
+      "Virus",
+      "Permissions or file locked by another user",
+      "Brightness",
+      "Battery"
+    ],
+    "a": 1,
+    "exp": "Locks/permissions make files read-only."
+  },
+  {
+    "q": "Device time is wrong and MFA fails. Best fix?",
+    "opts": [
+      "Ignore",
+      "Enable automatic time sync",
+      "Disable MFA",
+      "Share codes"
+    ],
+    "a": 1,
+    "exp": "Correct time sync is required."
+  },
+  {
+    "q": "App shows 'offline'. Best check?",
+    "opts": [
+      "Uninstall everything",
+      "Check network connection and airplane mode",
+      "Disable antivirus",
+      "Share password"
+    ],
+    "a": 1,
+    "exp": "Connectivity settings first."
+  },
+  {
+    "q": "A message asks you to 'confirm your mailbox quota' by logging in. Best action?",
+    "opts": [
+      "Log in via the link",
+      "Verify via the official portal/IT and report",
+      "Ignore security warnings",
+      "Send password by email"
+    ],
+    "a": 1,
+    "exp": "Quota messages are a common phishing pattern; verify via trusted channels."
+  },
+  {
+    "q": "You are leaving your desk for a short break. Best practice?",
+    "opts": [
+      "Leave the screen as-is",
+      "Lock your screen",
+      "Ask a colleague to watch it",
+      "Disable auto-lock"
+    ],
+    "a": 1,
+    "exp": "Locking the device prevents unauthorised access."
+  },
+  {
+    "q": "In a shared document, the best way to propose changes without overwriting content is:",
+    "opts": [
+      "Delete the original",
+      "Use suggestions/track changes or comments",
+      "Create many attachments",
+      "Post screenshots"
+    ],
+    "a": 1,
+    "exp": "Suggestion mode enables review without overwriting."
+  },
+  {
+    "q": "An app cannot access the camera/microphone. Best first step?",
+    "opts": [
+      "Buy new device",
+      "Check browser/app permissions settings",
+      "Disable security",
+      "Restart router"
+    ],
+    "a": 1,
+    "exp": "Permission settings commonly block camera/mic access."
+  }
+]
