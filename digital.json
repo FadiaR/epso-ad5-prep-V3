@@ -1318,5 +1318,1100 @@
     ],
     "a": 1,
     "exp": "Permission settings commonly block camera/mic access."
-  }
+  },
+  {
+  "q": "Which practice best ensures the credibility of online information?",
+  "opts": ["Trusting the most shared source","Cross-checking with independent reliable sources","Relying on search engine ranking","Using social media comments"],
+  "a": 1,
+  "exp": "Cross-checking reduces the risk of misinformation."
+},
+{
+  "q": "Why is it important to check the publication date of online content?",
+  "opts": ["To improve formatting","To ensure information is current","To reduce file size","To verify authorship"],
+  "a": 1,
+  "exp": "Outdated information may no longer be accurate."
+},
+{
+  "q": "Which action improves data quality in a spreadsheet?",
+  "opts": ["Adding more columns","Removing duplicate entries","Using bright colours","Increasing file size"],
+  "a": 1,
+  "exp": "Removing duplicates improves accuracy."
+},
+{
+  "q": "What is the main purpose of data validation rules?",
+  "opts": ["Improve appearance","Prevent incorrect data entry","Increase speed","Reduce storage"],
+  "a": 1,
+  "exp": "Validation prevents errors at entry."
+},
+{
+  "q": "Metadata should be reviewed before sharing because it may:",
+  "opts": ["Change layout","Reveal sensitive information","Slow access","Delete content"],
+  "a": 1,
+  "exp": "Metadata can contain hidden details."
+},
+{
+  "q": "When using statistics from an unknown website, the best approach is to:",
+  "opts": ["Use them directly","Verify the original source","Ignore all data","Share immediately"],
+  "a": 1,
+  "exp": "Verification ensures reliability."
+},
+{
+  "q": "Which factor most affects the reliability of a dataset?",
+  "opts": ["File size","Source credibility","Colour coding","Format type"],
+  "a": 1,
+  "exp": "Credible sources improve trustworthiness."
+},
+{
+  "q": "Why should personal data be minimised during collection?",
+  "opts": ["To simplify analysis","To comply with data protection principles","To reduce storage","To improve graphics"],
+  "a": 1,
+  "exp": "Data minimisation is a core data protection principle."
+},
+{
+  "q": "A dataset contains missing values. Best practice is to:",
+  "opts": ["Ignore them","Analyse and document missing data","Delete the dataset","Guess values"],
+  "a": 1,
+  "exp": "Missing data affects analysis quality."
+},
+{
+  "q": "What is a key risk of copying data from informal online sources?",
+  "opts": ["Faster work","Inaccurate or biased information","Better visuals","Higher compatibility"],
+  "a": 1,
+  "exp": "Informal sources may lack verification."
+},
+{
+  "q": "When searching for official EU statistics, the best source is:",
+  "opts": ["Blogs","Eurostat","Social networks","Discussion forums"],
+  "a": 1,
+  "exp": "Eurostat is the official EU statistics authority."
+},
+{
+  "q": "Which action improves traceability of data?",
+  "opts": ["Removing references","Documenting sources","Renaming files randomly","Sharing publicly"],
+  "a": 1,
+  "exp": "Source documentation enables traceability."
+},
+{
+  "q": "Why should filters be used carefully in data analysis?",
+  "opts": ["They improve colours","They may exclude relevant data","They increase speed","They lock files"],
+  "a": 1,
+  "exp": "Improper filters can distort results."
+},
+{
+  "q": "What is the main benefit of using structured data formats?",
+  "opts": ["Better aesthetics","Easier processing and analysis","Higher costs","Reduced access"],
+  "a": 1,
+  "exp": "Structured data supports analysis."
+},
+{
+  "q": "Which practice helps avoid confirmation bias?",
+  "opts": ["Selecting data that supports assumptions","Considering alternative sources","Ignoring contradictory data","Using one source only"],
+  "a": 1,
+  "exp": "Multiple perspectives reduce bias."
+},
+{
+  "q": "Why is data versioning important?",
+  "opts": ["To increase file size","To track changes over time","To reduce permissions","To remove history"],
+  "a": 1,
+  "exp": "Versioning supports traceability."
+},
+{
+  "q": "A chart shows unexpected results. First step?",
+  "opts": ["Publish immediately","Check underlying data","Change chart colours","Delete chart"],
+  "a": 1,
+  "exp": "Errors often originate in data."
+},
+{
+  "q": "Which practice improves data integrity?",
+  "opts": ["Manual overwriting","Controlled access","Public editing","Anonymous changes"],
+  "a": 1,
+  "exp": "Controlled access prevents tampering."
+},
+{
+  "q": "Why should raw data be preserved?",
+  "opts": ["For decoration","For verification and reanalysis","To save time","To reduce backups"],
+  "a": 1,
+  "exp": "Raw data enables auditability."
+},
+{
+  "q": "Which indicator suggests possible misinformation?",
+  "opts": ["Neutral language","Lack of sources","Clear authorship","Official logos"],
+  "a": 1,
+  "exp": "Missing sources reduce credibility."
+},
+{
+  "q": "Why should tracked changes be used in collaborative documents?",
+  "opts": ["To hide edits","To allow transparent review","To reduce file size","To lock content"],
+  "a": 1,
+  "exp": "Tracked changes ensure accountability."
+},
+{
+  "q": "Which action best respects copyright?",
+  "opts": ["Copying content freely","Checking licence and crediting the author","Assuming public access means free use","Editing without attribution"],
+  "a": 1,
+  "exp": "Licensing conditions must be respected."
+},
+{
+  "q": "Why is clear file naming important?",
+  "opts": ["For aesthetics","To avoid confusion and overwriting","To increase storage","To limit access"],
+  "a": 1,
+  "exp": "Clear naming reduces errors."
+},
+{
+  "q": "Which format is best for a final official document?",
+  "opts": ["Draft text","Editable spreadsheet","PDF","Chat message"],
+  "a": 2,
+  "exp": "PDF preserves layout and integrity."
+},
+{
+  "q": "When creating content for colleagues, clarity is improved by:",
+  "opts": ["Using technical jargon","Structuring content logically","Avoiding headings","Using long paragraphs"],
+  "a": 1,
+  "exp": "Clear structure improves comprehension."
+},
+{
+  "q": "Why should templates be used for official documents?",
+  "opts": ["To restrict creativity","To ensure consistency","To increase file size","To reduce collaboration"],
+  "a": 1,
+  "exp": "Templates ensure standardisation."
+},
+{
+  "q": "Which action improves accessibility of digital documents?",
+  "opts": ["Using images only","Adding headings and alt text","Using small fonts","Removing structure"],
+  "a": 1,
+  "exp": "Accessibility features support inclusiveness."
+},
+{
+  "q": "When reusing internal content, best practice is to:",
+  "opts": ["Copy without notice","Verify accuracy and context","Assume it is current","Share externally"],
+  "a": 1,
+  "exp": "Content must remain accurate and relevant."
+},
+{
+  "q": "What is the purpose of comments in shared documents?",
+  "opts": ["Delete content","Provide feedback without editing","Lock files","Reduce versions"],
+  "a": 1,
+  "exp": "Comments support collaboration."
+},
+{
+  "q": "Why should you avoid excessive formatting?",
+  "opts": ["It improves clarity","It reduces readability","It increases storage","It enhances security"],
+  "a": 1,
+  "exp": "Over-formatting distracts from content."
+},
+{
+  "q": "A tool works for colleagues but not for you. First step?",
+  "opts": ["Request new hardware","Check local settings and permissions","Reinstall system","Ignore"],
+  "a": 1,
+  "exp": "Local configuration issues are common."
+},
+{
+  "q": "After an update, errors appear. Best response?",
+  "opts": ["Disable security","Check official support information","Ignore errors","Downgrade without approval"],
+  "a": 1,
+  "exp": "Updates may introduce known issues."
+},
+{
+  "q": "Calendar shows wrong meeting times. Likely cause?",
+  "opts": ["Server failure","Time zone settings","Account suspension","Virus"],
+  "a": 1,
+  "exp": "Time zone settings often cause conflicts."
+},
+{
+  "q": "A webpage displays incorrectly only in one browser. Reason?",
+  "opts": ["Internet outage","Browser compatibility issue","Account blocked","Hardware failure"],
+  "a": 1,
+  "exp": "Browser differences affect rendering."
+},
+{
+  "q": "If troubleshooting fails, best escalation method is to:",
+  "opts": ["Complain informally","Provide clear description and steps tried","Disable protections","Ask colleagues to bypass rules"],
+  "a": 1,
+  "exp": "Clear escalation speeds resolution."
+},
+{
+  "q": "An application lacks access to the microphone. First check?",
+  "opts": ["Replace device","Check permission settings","Disable antivirus","Restart router"],
+  "a": 1,
+  "exp": "Permissions often block access."
+},
+{
+  "q": "Files do not sync across devices. Likely cause?",
+  "opts": ["Storage limits","Sync paused or account issue","Keyboard error","File corruption"],
+  "a": 1,
+  "exp": "Sync settings often cause issues."
+},
+{
+  "q": "A shared document is locked. Most likely reason?",
+  "opts": ["File damaged","Another user editing","Security breach","Internet down"],
+  "a": 1,
+  "exp": "Locks prevent simultaneous conflicts."
+},
+{
+  "q": "System performance suddenly drops. Reasonable check?",
+  "opts": ["Wallpaper","Background processes","Monitor brightness","Keyboard layout"],
+  "a": 1,
+  "exp": "Processes affect performance."
+},
+{
+  "q": "Login repeatedly fails despite correct password. Best action?",
+  "opts": ["Keep retrying","Check account status and reset via official process","Share credentials","Disable MFA"],
+  "a": 1,
+  "exp": "Account issues require proper reset."
+},
+  {
+  "q": "You receive information from two credible sources that slightly contradict each other. Best action?",
+  "opts": ["Choose the source you prefer","Ignore both sources","Investigate further and clarify differences","Average the two versions"],
+  "a": 2,
+  "exp": "Conflicting credible sources require further verification."
+},
+{
+  "q": "A colleague asks you to share draft data that has not yet been validated. Best response?",
+  "opts": ["Share immediately","Refuse without explanation","Explain limitations and wait for validation","Modify the data first"],
+  "a": 2,
+  "exp": "Unvalidated data should not be shared as final."
+},
+{
+  "q": "You notice that a shared dataset is being used outside its original context. Best action?",
+  "opts": ["Ignore it","Delete the dataset","Clarify context and limitations with users","Restrict all access"],
+  "a": 2,
+  "exp": "Context clarification prevents misinterpretation."
+},
+{
+  "q": "An online article supports your conclusion but lacks clear sourcing. Best practice?",
+  "opts": ["Use it because it confirms your view","Cite it cautiously and seek original sources","Ignore all online sources","Rewrite it in your own words"],
+  "a": 1,
+  "exp": "Original sourcing is required for reliability."
+},
+{
+  "q": "A colleague requests full access to a document but only needs to read it. Best action?",
+  "opts": ["Grant full access","Grant read-only access","Refuse access","Share a screenshot"],
+  "a": 1,
+  "exp": "Least-privilege access reduces risk."
+},
+{
+  "q": "You detect minor errors in a dataset shortly before a deadline. Best response?",
+  "opts": ["Ignore them","Correct and document the changes","Delete the dataset","Miss the deadline"],
+  "a": 1,
+  "exp": "Corrections should be made transparently."
+},
+{
+  "q": "A digital tool suggests an automated decision you do not fully understand. Best action?",
+  "opts": ["Accept it automatically","Disable the tool","Review and understand before relying on it","Ask colleagues to decide"],
+  "a": 2,
+  "exp": "Automated outputs require human oversight."
+},
+{
+  "q": "You are unsure whether information is confidential. Best default behaviour?",
+  "opts": ["Assume it is public","Share internally","Treat it as confidential until confirmed","Publish it externally"],
+  "a": 2,
+  "exp": "When in doubt, apply confidentiality."
+},
+{
+  "q": "A colleague shares data via an unapproved platform for convenience. Best response?",
+  "opts": ["Ignore it","Use it anyway","Explain risks and suggest approved tools","Report immediately without discussion"],
+  "a": 2,
+  "exp": "Guidance and redirection are proportionate."
+},
+{
+  "q": "You receive contradictory instructions through email and chat. Best action?",
+  "opts": ["Follow the latest message","Choose the simplest task","Clarify with the sender","Ignore both"],
+  "a": 2,
+  "exp": "Clarification avoids errors."
+},
+{
+  "q": "A document contains complex information for a non-expert audience. Best improvement?",
+  "opts": ["Add more technical detail","Simplify structure and language","Remove content","Convert to images only"],
+  "a": 1,
+  "exp": "Clarity should match the audience."
+},
+{
+  "q": "You notice outdated content in a shared knowledge base. Best response?",
+  "opts": ["Ignore it","Delete the page","Update or flag it as outdated","Create a private copy"],
+  "a": 2,
+  "exp": "Shared resources must remain accurate."
+},
+{
+  "q": "A colleague asks you to bypass a standard digital process to save time. Best action?",
+  "opts": ["Agree for efficiency","Refuse and explain the importance of the process","Ignore the request","Escalate immediately"],
+  "a": 1,
+  "exp": "Processes exist to manage risk."
+},
+{
+  "q": "You are unsure whether a file is the latest version. Best practice?",
+  "opts": ["Edit it anyway","Check version history or confirm with owner","Delete older files","Rename it as final"],
+  "a": 1,
+  "exp": "Version control avoids errors."
+},
+{
+  "q": "A shared spreadsheet allows unrestricted editing and errors appear. Best response?",
+  "opts": ["Lock everyone out","Restrict editing rights appropriately","Delete the spreadsheet","Recreate it privately"],
+  "a": 1,
+  "exp": "Controlled access improves integrity."
+},
+{
+  "q": "You suspect bias in how data was selected. Best next step?",
+  "opts": ["Ignore it","Adjust conclusions silently","Review selection criteria","Discard all data"],
+  "a": 2,
+  "exp": "Bias must be examined explicitly."
+},
+{
+  "q": "A colleague misinterprets a chart you shared. Best response?",
+  "opts": ["Correct them publicly","Ignore the misunderstanding","Clarify assumptions and explanation","Replace the chart"],
+  "a": 2,
+  "exp": "Clarification improves understanding."
+},
+{
+  "q": "You are asked to reuse old digital content for a new context. Best action?",
+  "opts": ["Reuse without changes","Verify relevance and accuracy","Delete the content","Assume it is still valid"],
+  "a": 1,
+  "exp": "Content must fit its context."
+},
+{
+  "q": "A tool update changes how results are displayed. Best response?",
+  "opts": ["Ignore differences","Review documentation and adjust interpretation","Disable updates","Revert without approval"],
+  "a": 1,
+  "exp": "Updates may alter outputs."
+},
+{
+  "q": "You notice a colleague sharing screenshots containing internal information. Best response?",
+  "opts": ["Share them too","Ignore it","Raise awareness and suggest safer alternatives","Publicly criticise"],
+  "a": 2,
+  "exp": "Awareness reduces future risk."
+},
+{
+  "q": "You are unsure whether data can be shared externally. Best default?",
+  "opts": ["Share to be helpful","Assume sharing is allowed","Check rules or ask before sharing","Remove identifiers and share"],
+  "a": 2,
+  "exp": "External sharing requires confirmation."
+},
+{
+  "q": "A report includes visually impressive but misleading graphics. Best action?",
+  "opts": ["Keep them","Remove all visuals","Adjust visuals to reflect data accurately","Add more effects"],
+  "a": 2,
+  "exp": "Visuals must accurately represent data."
+},
+{
+  "q": "You receive incomplete data close to a deadline. Best response?",
+  "opts": ["Invent missing values","Proceed and note limitations","Delay without explanation","Ignore missing parts"],
+  "a": 1,
+  "exp": "Transparency about limitations is essential."
+},
+{
+  "q": "A shared folder becomes cluttered with duplicate files. Best practice?",
+  "opts": ["Leave it","Delete everything","Organise and agree naming/version rules","Create a new folder privately"],
+  "a": 2,
+  "exp": "Organisation improves collaboration."
+},
+{
+  "q": "You disagree with a colleague’s digital approach but it complies with rules. Best response?",
+  "opts": ["Override it","Respect it and discuss improvements constructively","Report it","Ignore collaboration"],
+  "a": 1,
+  "exp": "Professional discussion improves outcomes."
+},
+{
+  "q": "You are unsure whether automated results are complete. Best approach?",
+  "opts": ["Assume completeness","Manually review key elements","Disable automation","Ask others to decide"],
+  "a": 1,
+  "exp": "Human review complements automation."
+},
+{
+  "q": "A document is shared without context. Best improvement?",
+  "opts": ["Add context or summary","Reduce content","Lock the document","Change file format"],
+  "a": 0,
+  "exp": "Context aids understanding."
+},
+{
+  "q": "You notice that digital information is being interpreted as definitive when it is provisional. Best action?",
+  "opts": ["Ignore it","Clarify provisional status","Delete the information","Restrict all access"],
+  "a": 1,
+  "exp": "Status clarification prevents misuse."
+},
+{
+  "q": "A colleague asks for advice outside your digital expertise. Best response?",
+  "opts": ["Guess","Provide partial advice","Redirect to appropriate expert or resource","Ignore the request"],
+  "a": 2,
+  "exp": "Redirecting ensures accuracy."
+},
+{
+  "q": "You identify a recurring digital error affecting multiple users. Best response?",
+  "opts": ["Fix it locally only","Ignore it","Document and report the issue","Ask users to adapt"],
+  "a": 2,
+  "exp": "Systemic issues require reporting."
+},
+{
+  "q": "You are asked to present digital data to senior management. Best preparation?",
+  "opts": ["Add technical detail","Focus on key insights and reliability","Use raw data only","Avoid explanations"],
+  "a": 1,
+  "exp": "Audience-appropriate presentation is essential."
+},
+{
+  "q": "A shared online form collects unnecessary personal data. Best action?",
+  "opts": ["Leave it","Add more fields","Reduce data to what is necessary","Disable the form"],
+  "a": 2,
+  "exp": "Data minimisation is required."
+},
+{
+  "q": "You notice inconsistent data definitions across documents. Best response?",
+  "opts": ["Ignore inconsistency","Standardise and document definitions","Delete documents","Let users decide"],
+  "a": 1,
+  "exp": "Consistency supports accuracy."
+},
+{
+  "q": "A colleague wants to reuse your analysis without attribution. Best response?",
+  "opts": ["Allow it","Refuse entirely","Request proper attribution","Escalate immediately"],
+  "a": 2,
+  "exp": "Attribution supports transparency."
+},
+{
+  "q": "You are unsure if a digital process is mandatory or optional. Best action?",
+  "opts": ["Assume optional","Bypass it","Check guidance or ask","Ignore the task"],
+  "a": 2,
+  "exp": "Clarifying rules prevents errors."
+},
+{
+  "q": "A shared document includes tracked changes not yet accepted. Best practice?",
+  "opts": ["Ignore them","Accept all blindly","Review and resolve changes","Delete history"],
+  "a": 2,
+  "exp": "Tracked changes require review."
+},
+{
+  "q": "You detect that digital information is being used beyond its intended scope. Best response?",
+  "opts": ["Allow it","Clarify limitations","Restrict access immediately","Delete content"],
+  "a": 1,
+  "exp": "Scope clarification prevents misuse."
+},
+{
+  "q": "You are unsure whether a digital source is authoritative. Best action?",
+  "opts": ["Assume authority","Verify origin and mandate","Ignore it","Use it cautiously without checks"],
+  "a": 1,
+  "exp": "Authority must be verified."
+},
+{
+  "q": "A colleague challenges your digital conclusions with alternative data. Best response?",
+  "opts": ["Defend your view only","Ignore their data","Compare datasets objectively","Withdraw immediately"],
+  "a": 2,
+  "exp": "Objective comparison improves quality."
+},
+{
+  "q": "You are asked to summarise complex digital findings. Best approach?",
+  "opts": ["Remove nuance","Highlight key points and limitations","Copy raw data","Use technical language only"],
+  "a": 1,
+  "exp": "Balanced summaries support decisions."
+},
+{
+  "q": "You notice repeated minor digital errors that are not reported. Best response?",
+  "opts": ["Ignore them","Document and raise awareness","Escalate aggressively","Fix silently"],
+  "a": 1,
+  "exp": "Awareness helps prevention."
+},
+{
+  "q": "A colleague requests immediate answers without sufficient data. Best response?",
+  "opts": ["Provide estimates","Delay until data is available or explain limits","Refuse completely","Guess"],
+  "a": 1,
+  "exp": "Decisions require sufficient data."
+},
+{
+  "q": "You find that a digital dashboard is misunderstood by users. Best improvement?",
+  "opts": ["Add more indicators","Provide guidance or explanations","Remove the dashboard","Restrict access"],
+  "a": 1,
+  "exp": "Guidance improves correct use."
+},
+{
+  "q": "You are unsure whether to automate a task. Best consideration?",
+  "opts": ["Always automate","Assess risks, benefits and oversight needs","Avoid automation","Ask colleagues to decide"],
+  "a": 1,
+  "exp": "Automation requires balanced assessment."
+},
+{
+  "q": "A digital process saves time but increases risk. Best response?",
+  "opts": ["Adopt it","Reject it immediately","Assess and mitigate risks","Ignore efficiency gains"],
+  "a": 2,
+  "exp": "Risk mitigation is key."
+},
+{
+  "q": "You receive feedback that your digital output is unclear. Best action?",
+  "opts": ["Ignore feedback","Defend your work","Clarify and improve presentation","Withdraw output"],
+  "a": 2,
+  "exp": "Feedback improves quality."
+},
+{
+  "q": "You identify uncertainty in digital results. Best practice?",
+  "opts": ["Hide uncertainty","Acknowledge and explain uncertainty","Remove results","Ignore it"],
+  "a": 1,
+  "exp": "Transparency supports trust."
+},
+  {
+  "questions": [
+    {
+      "question": "A public authority plans to deploy an AI-based tool to prioritise citizen requests using historical administrative data. What must be done before deployment to comply with legal and ethical obligations?",
+      "options": {
+        "A": "Deploy the tool and address issues only after complaints arise",
+        "B": "Conduct a Data Protection Impact Assessment and assess potential algorithmic bias",
+        "C": "Inform users that decisions are automated without further safeguards",
+        "D": "Rely exclusively on the vendor’s compliance assurances"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "An employee receives an urgent email appearing to come from internal IT, requesting immediate password reset. The sender address closely resembles the official domain. What is the most appropriate action?",
+      "options": {
+        "A": "Reset the password immediately to avoid account suspension",
+        "B": "Reply to the sender to verify their identity",
+        "C": "Report the email via official security channels before taking any action",
+        "D": "Delete the email without further action"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A project team uses a cloud-based collaboration platform hosted outside the EU to share sensitive working documents. What is the most critical compliance consideration?",
+      "options": {
+        "A": "Ease of use of the platform",
+        "B": "Compliance of international data transfers with GDPR Chapter V requirements",
+        "C": "Speed of document synchronisation",
+        "D": "Availability of mobile access"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which practice best strengthens cybersecurity when staff work remotely?",
+      "options": {
+        "A": "Allowing unrestricted use of personal devices",
+        "B": "Disabling automatic security updates to avoid disruptions",
+        "C": "Using multi-factor authentication and applying regular security patches",
+        "D": "Sharing login credentials within the team"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A manager asks for full access to a database containing personal data \"in case it is needed later.\" What is the most appropriate response?",
+      "options": {
+        "A": "Grant full access to prevent delays",
+        "B": "Grant read-only access to all data",
+        "C": "Apply the principle of least privilege and formally document access needs",
+        "D": "Refuse access without explanation"
+      },
+      "correct_answer": "C"
+    },
+    {
+  "questions": [
+    {
+      "question": "A public authority plans to introduce biometric authentication for access to its premises. Which obligation is most critical before implementation?",
+      "options": {
+        "A": "Ensure the system reduces waiting times at entry points",
+        "B": "Carry out a Data Protection Impact Assessment due to processing of special category data",
+        "C": "Inform staff after the system becomes operational",
+        "D": "Rely on consent obtained through internal policy notices"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "An IT incident results in accidental exposure of personal data to an unauthorised third party. What is the most appropriate initial action?",
+      "options": {
+        "A": "Wait to assess reputational impact before acting",
+        "B": "Immediately delete the data and take no further steps",
+        "C": "Assess the risk and notify the competent data protection authority if required",
+        "D": "Inform only senior management"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A digital tool used for policy analysis integrates data from multiple sources with varying levels of reliability. What is the main governance risk?",
+      "options": {
+        "A": "Increased processing speed",
+        "B": "Overreliance on potentially biased or inaccurate data",
+        "C": "Higher infrastructure costs",
+        "D": "Reduced interoperability"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "An employee wants to use a free online AI tool to summarise internal documents containing personal data. What is the primary concern?",
+      "options": {
+        "A": "Quality of the summaries",
+        "B": "Loss of intellectual property rights",
+        "C": "Uncontrolled data disclosure to third parties",
+        "D": "Lack of user training"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A digital system automatically flags cases for further investigation based on predefined risk indicators. What governance measure is most appropriate?",
+      "options": {
+        "A": "Remove all human involvement to avoid bias",
+        "B": "Ensure regular human oversight and review of system outputs",
+        "C": "Increase the number of indicators without documentation",
+        "D": "Keep the criteria confidential to prevent challenges"
+      },
+      "correct_answer": "B"
+    },
+    {
+  "questions": [
+    {
+      "question": "A public administration considers reusing open data published by another authority to develop a digital service. What must be verified first?",
+      "options": {
+        "A": "That the data is technically compatible with internal systems",
+        "B": "That the data can be monetised in the future",
+        "C": "That the licence terms allow the intended reuse",
+        "D": "That the dataset is frequently updated"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A system administrator receives a request from a colleague to access personal data outside their usual responsibilities due to workload pressure. What is the most appropriate response?",
+      "options": {
+        "A": "Grant access temporarily to support the colleague",
+        "B": "Grant access but restrict logging to save time",
+        "C": "Refuse or escalate the request in line with access control policies",
+        "D": "Share extracted data informally"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "An AI system supporting decision-making shows consistently different outcomes for comparable cases. What should be done first?",
+      "options": {
+        "A": "Ignore the issue if overall efficiency improves",
+        "B": "Adjust outcomes manually without analysing the cause",
+        "C": "Investigate potential bias or data quality issues",
+        "D": "Replace the system immediately"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A public body plans to outsource data hosting to a cloud provider. Which aspect is most critical from a governance perspective?",
+      "options": {
+        "A": "Brand reputation of the provider",
+        "B": "Clear allocation of responsibilities and contractual safeguards",
+        "C": "Availability of advanced analytics tools",
+        "D": "Pricing flexibility"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital workflow requires staff to bypass certain controls to meet tight deadlines. What is the main risk?",
+      "options": {
+        "A": "Lower employee satisfaction",
+        "B": "Reduced system performance",
+        "C": "Erosion of security, compliance, and accountability",
+        "D": "Increased administrative workload"
+      },
+      "correct_answer": "C"
+    }, 
+    {
+  "questions": [
+    {
+      "question": "A public authority deploys an automated decision-support system but does not document how key parameters are set. What is the primary risk?",
+      "options": {
+        "A": "Reduced system performance",
+        "B": "Inability to ensure accountability and auditability",
+        "C": "Higher operational costs",
+        "D": "Limited user adoption"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "An employee copies work files containing personal data onto a USB stick to work while travelling. Which measure would best mitigate the associated risk?",
+      "options": {
+        "A": "Using a larger storage device",
+        "B": "Encrypting the device and applying access controls",
+        "C": "Reducing the number of files copied",
+        "D": "Relying on the employee’s discretion"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital service collects more personal data than necessary to provide its core function. Which principle is being violated?",
+      "options": {
+        "A": "Accuracy",
+        "B": "Storage limitation",
+        "C": "Data minimisation",
+        "D": "Integrity"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A manager requests regular reports containing identifiable personal data, although aggregated data would suffice. What is the most appropriate approach?",
+      "options": {
+        "A": "Provide the reports as requested to maintain transparency",
+        "B": "Provide anonymised or aggregated data instead",
+        "C": "Delay providing any data until further notice",
+        "D": "Deny the request without justification"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A public sector digital project lacks clear ownership for data protection and cybersecurity responsibilities. What is the main consequence?",
+      "options": {
+        "A": "Faster decision-making",
+        "B": "Improved flexibility",
+        "C": "Increased risk of non-compliance and unmanaged incidents",
+        "D": "Lower operational costs"
+      },
+      "correct_answer": "C"
+    },
+    {
+  "questions": [
+    {
+      "question": "A public authority plans to use social media data to monitor public opinion for policy purposes. What is the most important legal consideration?",
+      "options": {
+        "A": "The volume of data that can be collected",
+        "B": "Whether the data is publicly accessible",
+        "C": "Whether a lawful basis for processing exists and is documented",
+        "D": "Whether the analysis can be automated"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "An internal digital system logs user activity but access to logs is not restricted. What is the primary risk?",
+      "options": {
+        "A": "Reduced system performance",
+        "B": "Excessive storage consumption",
+        "C": "Misuse of monitoring data and breach of confidentiality",
+        "D": "Lower data accuracy"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A public body relies on a third-party algorithm to rank funding applications but does not understand its functioning. What is the main governance issue?",
+      "options": {
+        "A": "Delayed processing times",
+        "B": "Dependence on external expertise",
+        "C": "Lack of transparency and inability to justify decisions",
+        "D": "Higher licensing costs"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "An employee notices that a colleague systematically bypasses security procedures to work faster. What is the most appropriate action?",
+      "options": {
+        "A": "Ignore the behaviour if results are satisfactory",
+        "B": "Adopt the same practices to remain efficient",
+        "C": "Report the issue through appropriate internal channels",
+        "D": "Confront the colleague informally without escalation"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A digital system processes personal data indefinitely without review. Which GDPR principle is most directly breached?",
+      "options": {
+        "A": "Lawfulness",
+        "B": "Purpose limitation",
+        "C": "Storage limitation",
+        "D": "Transparency"
+      },
+      "correct_answer": "C"
+    },
+    {
+  "questions": [
+    {
+      "question": "A public authority deploys an AI tool to assist in risk scoring but staff are instructed to always follow the system’s recommendation. What is the main issue?",
+      "options": {
+        "A": "Reduced processing speed",
+        "B": "De facto automated decision-making without meaningful human oversight",
+        "C": "Higher training costs",
+        "D": "Inconsistent application of criteria"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital project is justified internally as a pilot to avoid full compliance procedures. What is the primary risk of this approach?",
+      "options": {
+        "A": "Lower innovation potential",
+        "B": "Increased administrative burden",
+        "C": "Circumvention of legal and governance safeguards",
+        "D": "Delayed project delivery"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A public body outsources moderation of digital services to a private contractor without defining escalation procedures. What is the main governance concern?",
+      "options": {
+        "A": "Higher operational costs",
+        "B": "Reduced service availability",
+        "C": "Unclear accountability for decisions affecting users",
+        "D": "Lower technical performance"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "An employee uses personal messaging apps to exchange work-related information containing personal data. What is the most significant risk?",
+      "options": {
+        "A": "Loss of productivity",
+        "B": "Reduced transparency of communications",
+        "C": "Uncontrolled processing and potential data breaches",
+        "D": "Increased messaging costs"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A digital system supporting enforcement actions cannot explain why certain cases are prioritised. Which principle is most at risk?",
+      "options": {
+        "A": "Efficiency",
+        "B": "Proportionality",
+        "C": "Transparency and the right to good administration",
+        "D": "Interoperability"
+      },
+      "correct_answer": "C"
+    },
+{
+  "questions": [
+    {
+      "question": "A public authority relies on predictive analytics to allocate inspection resources but does not periodically review outcomes. What is the main risk?",
+      "options": {
+        "A": "Reduced inspection coverage",
+        "B": "Escalating operational costs",
+        "C": "Reinforcement of outdated or biased assumptions",
+        "D": "Lower staff engagement"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A digital service processes personal data based on consent obtained through a general terms-of-use notice. What is the main compliance concern?",
+      "options": {
+        "A": "Consent may not be freely given, specific, or informed",
+        "B": "Consent is always invalid in the public sector",
+        "C": "Terms-of-use notices are not legally recognised",
+        "D": "Processing speed is reduced"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "An IT team disables certain security controls to maintain service continuity during peak demand without documenting the decision. What is the key governance issue?",
+      "options": {
+        "A": "Reduced system scalability",
+        "B": "Lack of traceability and accountability for risk decisions",
+        "C": "Higher infrastructure costs",
+        "D": "Lower user satisfaction"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A public body introduces automated content filtering on its website without informing users. What principle is most directly affected?",
+      "options": {
+        "A": "Efficiency",
+        "B": "Data portability",
+        "C": "Transparency",
+        "D": "Accuracy"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A digital project uses training data that is no longer representative of current conditions. What is the primary risk?",
+      "options": {
+        "A": "Lower storage efficiency",
+        "B": "Decreased system responsiveness",
+        "C": "Inaccurate or unfair outcomes",
+        "D": "Higher maintenance costs"
+      },
+      "correct_answer": "C"
+    }, 
+    {
+  "questions": [
+    {
+      "question": "A public authority introduces an automated triage system for complaints, but no procedure exists to challenge or review its outcomes. What is the main risk?",
+      "options": {
+        "A": "Increased processing time",
+        "B": "Infringement of the right to effective remedy and good administration",
+        "C": "Higher development costs",
+        "D": "Reduced staff autonomy"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital service provider proposes to retain detailed user logs indefinitely for potential future analytics. What is the most appropriate response?",
+      "options": {
+        "A": "Accept retention to maximise future analytical value",
+        "B": "Allow retention if access is restricted",
+        "C": "Define clear retention periods aligned with purpose and legal obligations",
+        "D": "Delete logs immediately after collection"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A public body adopts an AI system developed using proprietary models and refuses to disclose any information about its functioning. What is the key issue?",
+      "options": {
+        "A": "Reduced innovation incentives",
+        "B": "Higher procurement costs",
+        "C": "Inability to ensure transparency and accountability of public decisions",
+        "D": "Lower system performance"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "An employee is asked to urgently share a dataset containing personal data with another department without a data-sharing agreement. What is the most appropriate action?",
+      "options": {
+        "A": "Share the data to meet operational needs",
+        "B": "Share only after anonymising key fields without assessment",
+        "C": "Pause and ensure a lawful basis and appropriate safeguards are in place",
+        "D": "Refuse permanently regardless of circumstances"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A digital system used by a public authority is modified repeatedly without updating documentation. What is the main long-term risk?",
+      "options": {
+        "A": "Higher development speed",
+        "B": "Loss of interoperability",
+        "C": "Loss of control, auditability, and compliance over time",
+        "D": "Increased user satisfaction"
+      },
+      "correct_answer": "C"
+    },
+    {
+  "questions": [
+    {
+      "question": "A public authority uses an algorithm to prioritise inspections but does not inform the affected entities of this practice. What is the main legal risk?",
+      "options": {
+        "A": "Lower effectiveness of inspections",
+        "B": "Violation of transparency obligations and the right to be informed",
+        "C": "Increased operational costs",
+        "D": "Reduced deterrence effect"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital project team argues that documenting decisions slows down innovation and should be avoided. What is the primary counter-argument?",
+      "options": {
+        "A": "Documentation is only required for large projects",
+        "B": "Documentation supports accountability, continuity, and legal compliance",
+        "C": "Innovation requires complete operational freedom",
+        "D": "Undocumented decisions are easier to reverse"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A public body deploys a chatbot to answer citizen queries, but the chatbot occasionally provides incorrect legal information. What is the most appropriate mitigation measure?",
+      "options": {
+        "A": "Disable the chatbot entirely",
+        "B": "Add clear disclaimers and ensure human supervision and escalation paths",
+        "C": "Rely on user feedback to correct errors over time",
+        "D": "Limit chatbot availability to office hours"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "An internal audit reveals that access rights to sensitive systems have not been reviewed for several years. What is the main risk?",
+      "options": {
+        "A": "Lower system availability",
+        "B": "Excessive administrative workload",
+        "C": "Accumulation of unnecessary privileges increasing security and compliance risks",
+        "D": "Reduced system performance"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "A public authority relies on automated analytics to detect fraud but does not assess false positives. What is the principal concern?",
+      "options": {
+        "A": "Reduced detection rates",
+        "B": "Higher operational costs",
+        "C": "Unjustified adverse effects on individuals",
+        "D": "Lower system scalability"
+      },
+      "correct_answer": "C"
+    },
+    {
+  "questions": [
+    {
+      "question": "A public authority integrates several legacy databases into a new digital platform without reassessing data quality and relevance. What is the main risk?",
+      "options": {
+        "A": "Reduced processing speed",
+        "B": "Propagation of errors and outdated information into new decisions",
+        "C": "Higher integration costs",
+        "D": "Limited scalability of the platform"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital service automatically rejects applications that do not meet predefined criteria, with no record kept of rejected cases. What is the main governance issue?",
+      "options": {
+        "A": "Lower user satisfaction",
+        "B": "Inability to audit decisions and handle complaints effectively",
+        "C": "Reduced system efficiency",
+        "D": "Higher data storage costs"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A public body plans to introduce behavioural analytics to monitor employee activity without consulting staff representatives. What is the primary concern?",
+      "options": {
+        "A": "Technical complexity of the system",
+        "B": "Potential infringement of privacy and labour law obligations",
+        "C": "Insufficient analytical accuracy",
+        "D": "Increased operational costs"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "An AI-supported system is updated by a vendor through remote access without validation by the public authority. What is the main risk?",
+      "options": {
+        "A": "Delayed deployment of new features",
+        "B": "Loss of control over system behaviour and compliance",
+        "C": "Higher maintenance costs",
+        "D": "Reduced vendor accountability"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital decision-support tool is used in practice beyond the scope originally approved. What is the most appropriate response?",
+      "options": {
+        "A": "Formally reassess the use, risks, and legal basis before continuation",
+        "B": "Continue use if outcomes appear satisfactory",
+        "C": "Expand use informally to maximise benefits",
+        "D": "Deactivate the tool permanently"
+      },
+      "correct_answer": "A"
+    },
+    {
+  "questions": [
+    {
+      "question": "A public authority introduces a new digital workflow that significantly changes how individual cases are assessed, but does not update internal procedures or guidance. What is the main risk?",
+      "options": {
+        "A": "Slower case processing",
+        "B": "Inconsistent application of rules and legal uncertainty",
+        "C": "Higher training costs",
+        "D": "Reduced system interoperability"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital system uses probabilistic scores to support enforcement decisions, but staff are not trained to interpret these scores. What is the primary concern?",
+      "options": {
+        "A": "Reduced operational efficiency",
+        "B": "Misinterpretation leading to disproportionate or arbitrary decisions",
+        "C": "Increased IT maintenance costs",
+        "D": "Lower system availability"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A public body stores personal data in multiple systems without a clear data inventory. What is the main governance issue?",
+      "options": {
+        "A": "Reduced analytical capacity",
+        "B": "Inability to ensure compliance with data subject rights and retention rules",
+        "C": "Higher storage costs",
+        "D": "Limited system scalability"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A digital project prioritises rapid deployment over security testing due to political pressure. What is the most significant risk?",
+      "options": {
+        "A": "Lower user adoption",
+        "B": "Exposure to security incidents and loss of trust",
+        "C": "Reduced project visibility",
+        "D": "Higher long-term innovation costs"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "A public authority cannot identify who is responsible for decisions influenced by an automated system. What core principle is undermined?",
+      "options": {
+        "A": "Efficiency",
+        "B": "Neutrality",
+        "C": "Accountability",
+        "D": "Interoperability"
+      },
+      "correct_answer": "C"
+    }
 ]
+  
